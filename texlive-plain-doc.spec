@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/plain-doc/csname.txt
+# catalog-date 2009-11-09 15:03:08 +0100
+# catalog-license noinfo
+# catalog-version undef
 Name:		texlive-plain-doc
 Version:	20091109
 Release:	1
@@ -21,6 +27,7 @@ in plain.tex.
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/plain/plain-doc/csname.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -31,3 +38,5 @@ in plain.tex.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
