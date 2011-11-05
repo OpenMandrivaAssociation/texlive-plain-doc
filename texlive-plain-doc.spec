@@ -15,7 +15,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.doc.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
-Requires(post):	texlive-tlpkg
+Requires(pre):	texlive-tlpkg
 Conflicts:	texlive-texmf <= 20110705-3
 
 %description
