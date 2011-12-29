@@ -16,7 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.doc.tar
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
 
 %description
 The document constitutes a list of every control sequence name
@@ -27,7 +26,6 @@ in plain.tex.
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/plain/plain-doc/csname.txt
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,5 +36,3 @@ in plain.tex.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
