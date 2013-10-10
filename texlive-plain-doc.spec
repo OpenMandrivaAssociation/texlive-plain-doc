@@ -1,16 +1,16 @@
-# revision 15878
+# revision 28424
 # category Package
 # catalog-ctan /info/plain-doc/csname.txt
-# catalog-date 2009-11-09 15:03:08 +0100
-# catalog-license noinfo
+# catalog-date 2012-04-25 15:23:25 +0200
+# catalog-license pd
 # catalog-version undef
 Name:		texlive-plain-doc
-Version:	20091109
-Release:	2
+Version:	20120425
+Release:	1
 Summary:	A list of plain.tex cs names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/plain-doc/csname.txt
-License:	NOINFO
+License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.doc.tar.xz
 BuildArch:	noarch
@@ -36,17 +36,3 @@ in plain.tex.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20091109-2
-+ Revision: 754975
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20091109-1
-+ Revision: 719271
-- texlive-plain-doc
-- texlive-plain-doc
-- texlive-plain-doc
-- texlive-plain-doc
-
