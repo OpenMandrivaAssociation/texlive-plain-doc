@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-plain-doc
 Version:	20120425
-Release:	4
+Release:	5
 Summary:	A list of plain.tex cs names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/plain-doc/csname.txt
