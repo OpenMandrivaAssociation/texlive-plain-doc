@@ -1,9 +1,3 @@
-# revision 28424
-# category Package
-# catalog-ctan /info/plain-doc/csname.txt
-# catalog-date 2012-04-25 15:23:25 +0200
-# catalog-license pd
-# catalog-version undef
 Name:		texlive-plain-doc
 Version:	20170414
 Release:	1
