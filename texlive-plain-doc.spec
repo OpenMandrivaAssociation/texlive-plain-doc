@@ -1,12 +1,12 @@
 Name:		texlive-plain-doc
-Version:	20190228
+Version:	28424
 Release:	1
 Summary:	A list of plain.tex cs names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/plain-doc/csname.txt
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,7 +23,7 @@ in plain.tex.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
