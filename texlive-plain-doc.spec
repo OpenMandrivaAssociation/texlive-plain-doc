@@ -1,6 +1,6 @@
 Name:		texlive-plain-doc
 Version:	28424
-Release:	1
+Release:	2
 Summary:	A list of plain.tex cs names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/plain-doc/csname.txt
