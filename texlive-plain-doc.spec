@@ -3,7 +3,7 @@ Version:	28424
 Release:	2
 Summary:	A list of plain.tex cs names
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/plain-doc/csname.txt
+URL:		https://www.ctan.org/tex-archive/info/plain-doc/csname.txt
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plain-doc.doc.r%{version}.tar.xz
